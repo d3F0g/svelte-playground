@@ -8,7 +8,7 @@
 </div>
 
 
-<style>
+<style type="text/postcss">
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
