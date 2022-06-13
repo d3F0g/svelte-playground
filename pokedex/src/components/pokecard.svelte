@@ -1,5 +1,4 @@
 <script>
-    // @ts-nocheck
     import {fade} from 'svelte/transition'
     export let pokemonDetails
 </script>

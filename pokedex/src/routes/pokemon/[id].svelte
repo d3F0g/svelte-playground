@@ -1,11 +1,9 @@
 <script context="module">
-    // @ts-nocheck
     export async function load({ params, fetch }) {
         const id = params.id
         const url = `https://pokeapi.co/api/v2/pokemon/${id}`
         const res = await fetch(url)
         const pokemonData = await res.json()
-
         return {props: {pokemonData}}
     }
 </script>
@@ -14,6 +12,10 @@
     export let pokemonData
     const type = pokemonData.types[0].type.name
 </script>
+
+<svelte:head>
+    <title>{pokemonData.name}</title>
+</svelte:head>
 
 <div class="flex flex-col items-center">
     <h1 class="text-4xl text-center my-8 uppercase">{pokemonData.name}</h1>

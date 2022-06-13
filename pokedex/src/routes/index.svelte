@@ -1,5 +1,4 @@
 <script>
-    // @ts-nocheck
     import {pokemons} from "../stores/pokestore"
     import Pokecard from "../components/pokecard.svelte"
     
