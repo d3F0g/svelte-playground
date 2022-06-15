@@ -5789,7 +5789,7 @@ var init_about_svelte = __esm({
 
 <h1 class="${"text-4xl text-center my-8 uppercase"}">About</h1>
 
-<p class="${"text-center"}">Trying out the svelte framework with data pulled from Pokemon API</p>`;
+<p class="${"text-center"}">Just a nobody trying out the svelte framework with data pulled from Pokemon API</p>`;
     });
   }
 });
@@ -5808,8 +5808,8 @@ var init__4 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     init_about_svelte();
     index4 = 2;
-    entry4 = "pages/about.svelte-d7d52fd0.js";
-    js4 = ["pages/about.svelte-d7d52fd0.js", "chunks/index-787c56a3.js"];
+    entry4 = "pages/about.svelte-a48b7c85.js";
+    js4 = ["pages/about.svelte-a48b7c85.js", "chunks/index-787c56a3.js"];
     css5 = [];
   }
 });
@@ -8383,7 +8383,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-25cbb60c.js", "js": ["start-25cbb60c.js", "chunks/index-787c56a3.js", "chunks/index-e90e0636.js"], "css": [] },
+    entry: { "file": "start-83390944.js", "js": ["start-83390944.js", "chunks/index-787c56a3.js", "chunks/index-e90e0636.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
