@@ -5567,8 +5567,8 @@ var init_layout_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/__layout.svelte.js"() {
     init_index_525aa5c6();
     Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<nav class="${"flex justify-center w-full"}"><a class="${"mx-4 text-lg border-b-4 border-b-gray-50 hover:border-b-rose-400"}" href="${"/"}">Home</a>
-    <a class="${"mx-4 text-lg border-b-4 border-b-gray-50 hover:border-b-rose-400"}" href="${"/about"}">About</a></nav>`;
+      return `<nav class="${"flex justify-center w-full"}"><a class="${"mx-4 text-lg border-b-4 hover:border-b-rose-400 " + escape("border-b-rose-400")}" href="${"/"}">Home</a>
+    <a class="${"mx-4 text-lg border-b-4 hover:border-b-rose-400 " + escape("border-b-gray-50")}" href="${"/about"}">About</a></nav>`;
     });
     css = {
       code: "@tailwind base;@tailwind components;@tailwind utilities;",
@@ -5597,9 +5597,9 @@ var init__ = __esm({
   ".svelte-kit/output/server/nodes/0.js"() {
     init_layout_svelte();
     index = 0;
-    entry = "pages/__layout.svelte-b20a3f8c.js";
-    js = ["pages/__layout.svelte-b20a3f8c.js", "chunks/index-787c56a3.js"];
-    css2 = ["assets/pages/__layout.svelte-1b74b8a2.css"];
+    entry = "pages/__layout.svelte-c49b826e.js";
+    js = ["pages/__layout.svelte-c49b826e.js", "chunks/index-16e5ba3a.js"];
+    css2 = ["assets/pages/__layout.svelte-6912a5fa.css"];
   }
 });
 
@@ -5649,8 +5649,8 @@ var init__2 = __esm({
   ".svelte-kit/output/server/nodes/1.js"() {
     init_error_svelte();
     index2 = 1;
-    entry2 = "error.svelte-84c8d255.js";
-    js2 = ["error.svelte-84c8d255.js", "chunks/index-787c56a3.js"];
+    entry2 = "error.svelte-5a9dc0a6.js";
+    js2 = ["error.svelte-5a9dc0a6.js", "chunks/index-16e5ba3a.js"];
     css3 = [];
   }
 });
@@ -5769,8 +5769,8 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/3.js"() {
     init_index_svelte();
     index3 = 3;
-    entry3 = "pages/index.svelte-fb2f8480.js";
-    js3 = ["pages/index.svelte-fb2f8480.js", "chunks/index-787c56a3.js", "chunks/index-e90e0636.js"];
+    entry3 = "pages/index.svelte-750d68de.js";
+    js3 = ["pages/index.svelte-750d68de.js", "chunks/index-16e5ba3a.js", "chunks/index-5f26ed89.js"];
     css4 = [];
   }
 });
@@ -5808,8 +5808,8 @@ var init__4 = __esm({
   ".svelte-kit/output/server/nodes/2.js"() {
     init_about_svelte();
     index4 = 2;
-    entry4 = "pages/about.svelte-a48b7c85.js";
-    js4 = ["pages/about.svelte-a48b7c85.js", "chunks/index-787c56a3.js"];
+    entry4 = "pages/about.svelte-7903a76d.js";
+    js4 = ["pages/about.svelte-7903a76d.js", "chunks/index-16e5ba3a.js"];
     css5 = [];
   }
 });
@@ -5861,8 +5861,8 @@ var init__5 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     init_id_svelte();
     index5 = 4;
-    entry5 = "pages/pokemon/_id_.svelte-362c6532.js";
-    js5 = ["pages/pokemon/_id_.svelte-362c6532.js", "chunks/index-787c56a3.js"];
+    entry5 = "pages/pokemon/_id_.svelte-7f7fb975.js";
+    js5 = ["pages/pokemon/_id_.svelte-7f7fb975.js", "chunks/index-16e5ba3a.js"];
     css6 = [];
   }
 });
@@ -8383,7 +8383,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   mimeTypes: { ".png": "image/png" },
   _: {
-    entry: { "file": "start-83390944.js", "js": ["start-83390944.js", "chunks/index-787c56a3.js", "chunks/index-e90e0636.js"], "css": [] },
+    entry: { "file": "start-fc016088.js", "js": ["start-fc016088.js", "chunks/index-16e5ba3a.js", "chunks/index-5f26ed89.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
